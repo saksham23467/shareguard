@@ -1,0 +1,58 @@
+{
+  "measured_at": "2026-09-30T15:27:05",
+  "host": "grok-bot-vm-210984069",
+  "hardware": {
+    "os": "Linux",
+    "machine": "x86_64",
+    "python": "3.13.5",
+    "processor": "",
+    "ort_version": "1.30.0",
+    "providers": [
+      "AzureExecutionProvider",
+      "CPUExecutionProvider"
+    ]
+  },
+  "demo": {
+    "engine": "rapidocr",
+    "device": "cpu",
+    "realtime": true,
+    "fps": 10,
+    "config": {
+      "tile": 32,
+      "conf_threshold": 0.8,
+      "entropy_bits": 3.5,
+      "pad": 4,
+      "blur_downscale": 16,
+      "label_extends_right": true
+    },
+    "frames": 144,
+    "secrets_planted": 5,
+    "secrets_missed": 0,
+    "missed_detail": {},
+    "invariant_violations": 0,
+    "ocr_ms_p50": 241.03786700288765,
+    "ocr_ms_p95": 353.2263019966194,
+    "scans": 13,
+    "time_to_readable_s": [
+      {
+        "event": "start",
+        "frame": 0,
+        "t0": 109410.648543031,
+        "ttr_s": 0.4
+      },
+      {
+        "event": "switch",
+        "frame": 30,
+        "t0": 109413.648631836,
+        "ttr_s": 0.4
+      },
+      {
+        "event": "switch",
+        "frame": 70,
+        "t0": 109417.648770273
+      }
+    ],
+    "ttr_p50": 0.4,
+    "ttr_p95": 0.4
+  }
+}

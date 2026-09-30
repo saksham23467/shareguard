@@ -1,0 +1,5 @@
+# Defaults mirrored in shareguard/app/pipeline.py::Config
+tile = 32              # px; unit of change detection and of the unblur check
+conf_threshold = 0.80  # OCR lines below this confidence stay blurred (fail-closed)
+entropy_bits = 3.5     # random-looking tokens of >=20 chars are treated as secrets
+blur_downscale = 16
