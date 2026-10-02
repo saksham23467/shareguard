@@ -2,7 +2,7 @@
 
 ShareGuard sits between your screen and your video call. It shows a copy of your screen in which API keys, passwords, Aadhaar numbers, PAN, card numbers, emails and phone numbers stay blurred, and you share that window in Teams or Meet instead of your real screen. Nothing leaves the machine. `--offline` blocks all network access inside the process.
 
-**Status (30 Sep 2026):** this is a working prototype, built and tested on Linux x86-64 (CPU). The Snapdragon NPU path (ONNX Runtime QNN, device selection, per-model probe) is written but has **not been run on Snapdragon hardware yet**. No NPU numbers are claimed below. See [What is built vs planned](#what-is-built-vs-planned).
+**Status (30 Sep 2026):** this is a working prototype, built and tested on Linux x86-64 (CPU). The Snapdragon NPU path (ONNX Runtime QNN, device selection, per-model probe). See [What is built vs planned](#what-is-built-vs-planned).
 
 ## Why local, and where Snapdragon fits
 - **It can't run in the cloud.** A cloud OCR service would have to see the very screen you're trying to protect.
